@@ -1,0 +1,14 @@
+
+
+<h1>
+    Shipping Information
+</h1>
+
+<div class="row" *ngIf="cart$ | async as cart">
+    <div class="col-md-6">
+      <app-shipping-form [cart] ="cart" ></app-shipping-form>
+  </div>
+  <div class="col-md-6">
+    <shopping-cart-summary [cart] = "cart"></shopping-cart-summary>
+ </div>
+</div>

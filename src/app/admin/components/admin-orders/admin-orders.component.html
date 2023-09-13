@@ -1,0 +1,22 @@
+
+
+<h1>Admin Orders Page</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Customer Name</th>
+        <th scope="col">Date Placed</th>
+        <th scope="col">Order Total</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor= "let order of order$ | async ">
+        <td>{{ order.shipping.name}}</td>
+        <td>{{order.datePlaced}} </td>
+        <td>{{order.cartTotal | currency: 'USD' }}</td>
+        <td><a href=""> View details </a></td>
+      </tr>
+    </tbody>
+  </table>

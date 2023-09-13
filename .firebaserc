@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "arjunmart-595dc"
+  },
+  "targets": {
+    "arjunmart-595dc": {
+      "hosting": {
+        "ArjunMart": [
+          "arjunmart-595dc"
+        ]
+      }
+    }
+  }
+}

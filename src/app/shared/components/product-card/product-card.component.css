@@ -1,0 +1,26 @@
+
+.class-footer{
+    padding:0;
+}
+
+.card {
+    position: relative;
+    padding-bottom: 5px; /* Space for the ribbon */
+}
+
+.card-img-top {
+    object-fit: cover; /* This will cover the entire content box, potentially cropping the image */
+    height: 160px; /* Example fixed height */
+}
+
+.a-button{
+    position: sticky;
+    padding: 10px 170px;
+}
+
+
+
+
+
+
+
